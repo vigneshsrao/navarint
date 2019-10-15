@@ -42,7 +42,7 @@ void emit(int size, ...)
   for (int i = 0; i < size; i++)
   {
     ++text;
-    *text=va_arg(ap, int);
+    *text=va_arg(ap, long);
     // if(!i)
     // printf("%s ",a1[*text]);
     // else
